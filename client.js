@@ -6,7 +6,7 @@ const arm = new OWIArm();
 
 arm.connect();
 
-const socket = io('https://arm.paulvarache.ninja');
+const socket = io('https://bok.paulvarache.ninja');
 
 socket.on('connect', e => {
     console.log('connected');
